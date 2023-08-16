@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Luas Segitiga Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1 >Wellcome to Katik</h1>
+        <h3>Hai sobat selamat datang di katik ;]</h3>
+        <h3>Sebuah web app sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</h3>
+        <div class="segitiga">
+            <h1><a href="#">Segitiga</a></h1>
+        </div>
+        <div class="jajargenjang">
+            <h1><a href="jajargenjang.html">Jajargenjang</a></h1>
+        </div>
+            <img src="segitiga.jpg" alt="segitiga">
+        <div class="left-align">
+            <p>Rumus luas segitiga yaitu</p>
+            <p>L = 1/2xaxt</p>
+            <p>Dimana</p>
+            <p>L = Luas</p>
+            <p>a = alas</p>
+            <p>t = tinggi</p>
+        </div>
+    <div class="padding">
+        <h1 class="header-blue">Hitung Luas Segitiga</h1>
+        <label for="base">Alas</label>
+        <input type="number" id="base" placeholder="Masukkan Alas" />
+        <label for="height">Tinggi</label>
+        <input type="number" id="height" placeholder="Masukkan Tinggi" />
+        <button id="calculate">Hitung Luas</button>
+        <p id="result"></p>
+        <div class="right-aligin">
+        <button id="resetLuas" class="button-yellow">Reset</button>
+        </div>
+    </div>
+        <div class="left-align">
+            <p>Rumus keliling segitiga yaitu</p>
+            <p>K = a + b + c</p>
+            <p>Dimana</p>
+            <p>a = sisi A</p>
+            <p>b = sisi B</p>
+            <p>c = sisi C</p>
+        </div>
+        <h1 class="header-blue">Hitung Keliling Segitiga</h1>
+        <div class="padding">
+        <label for="sideA">Sisi A</label>
+        <input type="number" id="sideA" placeholder="Masukkan Panjang Sisi A" />
+    
+        <label for="sideB">Sisi B</label>
+        <input type="number" id="sideB" placeholder="Masukkan Panjang Sisi B" />
+    
+        <label for="sideC">Sisi C</label>
+        <input type="number" id="sideC" placeholder="Masukkan Panjang Sisi C" />
+    
+        <button id="calculatePerimeter">Hitung Keliling</button>
+        <p id="resultPerimeter" class="result"></p>
+        <div class="right-aligin">
+        <button id="resetKeliling" class="button-yellow">Reset</button>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
